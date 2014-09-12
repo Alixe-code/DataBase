@@ -4,7 +4,7 @@
 //
 //  Created by 刘 俊 on 12-11-19.
 //
-//
+//  GitHub : vividloves@gmail.com
 
 #define SQLITE_NAME         @"DataBase.sqlite"
 

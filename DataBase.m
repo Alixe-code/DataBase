@@ -8,9 +8,6 @@
 
 #define SQLITE_NAME         @"DataBase.sqlite"
 
-#define START_TRANSACTION() sqlite3_exec(database, "begin transaction;", NULL, NULL, NULL)
-#define END_TRANSACTION()   sqlite3_exec(database, "commit transaction;", NULL, NULL, NULL)
-
 #define debugLog(...) NSLog(__VA_ARGS__)
 
 #define ERROR_DOMAIN @"LJ_DataBase"
